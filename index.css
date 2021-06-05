@@ -3,7 +3,10 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 .head{
@@ -81,3 +84,52 @@ label{
     color: #2f3030;
     font-size: 1.4rem;
 }
+
+@media screen and (max-width: 700px) {
+    
+    .main{
+        width: 30rem;
+    }
+    .result{
+        width: 25rem;
+    }
+    .input-field{
+        margin-left:0rem;
+     margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    
+    .main{
+        width: 20rem;
+        
+    }
+    .result{
+        width: 15rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 350px) {
+    
+    .main{
+        width: 12rem;
+        font-size: 1rem;
+        
+    }
+    .input-field{
+        font-size: 1rem;
+        margin: 0rem;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 1rem;
+        margin:1rem;
+    }
+    .result{
+        width: 6rem;
+    }
+    
+  }
