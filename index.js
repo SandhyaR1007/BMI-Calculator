@@ -62,7 +62,7 @@ const BMI_Calculator = ()=>{
 }
 else if(BMI>=18.5 && BMI<24.9){
     result.innerHTML = `<p>${BMI}-NORMAL</p>`
-    result.style.backgroundColor = "#1dd1a1"
+    result.style.backgroundColor = "#7bed9f"
     result.style.border = "1px solid #05c46b"
 }
 else if(BMI>=24.9 && BMI<29.9){
