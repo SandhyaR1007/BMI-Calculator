@@ -1,0 +1,22 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "\"A Vanilla JS Application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandhyaR1007/BMI-Calculator.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandhyaR1007/BMI-Calculator/issues"
+  },
+  "homepage": "https://github.com/SandhyaR1007/BMI-Calculator#readme"
+}
